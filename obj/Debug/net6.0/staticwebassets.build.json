@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "ecUWiubIchoiYLE+oN2LekwdVU41D7uTiaJBpg/0sJ0=",
+  "Source": "myTask",
+  "BasePath": "_content/myTask",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "myTask\\wwwroot",
+      "Source": "myTask",
+      "ContentRoot": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\",
+      "BasePath": "_content/myTask",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\css\\site.css",
+      "SourceId": "myTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\",
+      "BasePath": "_content/myTask",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\index.html",
+      "SourceId": "myTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\",
+      "BasePath": "_content/myTask",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\js\\site.js",
+      "SourceId": "myTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\The user\\Downloads\\core-main\\core-main\\wwwroot\\",
+      "BasePath": "_content/myTask",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
