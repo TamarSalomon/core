@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #4e6bff;
+}
+
+button {
+    background-color: #ff7e67;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff523f;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+input[type="submit"] {
+    background-color: #4e6bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3248ff;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    background-color: #ff7e67;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #3248ff;
+}
+
+
+button,
+[aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#forAdmin,#forAdminTask{
+    margin-top: 40px;
+}

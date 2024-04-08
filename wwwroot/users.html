@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Users</title>
+</head>
+
+<body>
+    <h1>users list</h1>
+    <form action="javascript:void(0);" method="POST" onsubmit="addUser()">
+        <input type="text" id="add-name" placeholder="name">
+        <input type="password" id="add-password" placeholder="password">
+        <input type="submit" value="Add">
+    </form>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Password</th>
+            <th>Type</th>
+            <th></th>
+        </tr>
+        <tbody id="Users"></tbody>
+    </table>
+    <div id="users">
+
+
+    </div>
+    <a id="forAdminTask" href="./tasks.html">tasks</a>
+
+</body>
+<script src="./js/users.js"></script>
+
+</html>

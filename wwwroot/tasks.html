@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+
+<body >
+    <h1>Task CRUD</h1>
+    <button type="button" onclick="displayUserDetails()">edit-user</button>
+    <div id="editUserForm" hidden>
+        <form action="javascript:void(0);" onsubmit="updateUser()">
+            <input type="text" id="editUser-name" required>
+            <input type="password" id="editUser-password" required>
+            <input type="submit" value="Save">
+            <a onclick="closeeditUserInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <form action="javascript:void(0);" method="POST" onsubmit="addTask()">
+        <input type="text" id="add-name" placeholder="New Task" required>
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editForm">
+        <form action="javascript:void(0);" onsubmit="updateTask()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isDone">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Is Done?</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="Tasks"></tbody>
+    </table>
+    
+    <a id="forAdmin" hidden href="./users.html">all users</a>
+
+</body>
+<script src="js/tasks.js"></script>
+
+
+</html>
